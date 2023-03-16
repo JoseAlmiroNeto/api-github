@@ -66,6 +66,18 @@ export const User = ({
               color = "#CC0000";
             } else if (item.language === "CSS") {
               color = "#A855F7";
+            } else if (item.language === "Python") {
+              color = "#22C55E";
+            } else if (item.language === "Jupyter Notebook") {
+              color = "#DA5B0B";
+            } else if (item.language === "C++") {
+              color = "#007dca";
+            } else if (item.language === "C") {
+              color = "#555555";
+            } else if (item.language === "Assembly") {
+              color = "#6e4c13";
+            } else if (item.language === "Java") {
+              color = "#B07219";
             }
 
             return (
